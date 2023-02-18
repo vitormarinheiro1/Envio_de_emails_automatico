@@ -32,7 +32,7 @@ Ut rerum blanditiis ea laudantium nihil et atque ipsa id labore aliquid sed esse
 A deleniti error sit accusantium sapiente 33 neque optio et enim doloribus qui enim rerum. Aut voluptatum enim ut eligendi ullam non nobis odio eum quas animi eum amet sunt! Ad cupiditate consectetur vel accusantium reprehenderit aut voluptatem harum est provident iusto qui deleniti voluptas et voluptas ipsa.
     """
         message = MIMEMultipart()
-        message['Subject'] = f"BOLETO - {nome.upper()}"
+        message['Subject'] = f"ASSUNTO - {nome.upper()}"
         message['From'] = remetente
         message['To'] = email
         message.attach(
